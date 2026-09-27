@@ -1,0 +1,13 @@
+# Build outputs.
+bin/
+*.obj
+*.pdb
+*.ilk
+*.exp
+
+# Run outputs: the calibration the device hands over, the depth tables, and
+# everything a live run writes. All of it is made again by running the tools.
+cache/
+out/
+
+__pycache__/
